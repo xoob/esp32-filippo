@@ -15,7 +15,12 @@ struct Date {
   const char *day;
 };
 
-static const Date DATES[] = {{"Fr", "26.09."}, {"Do", "02.10."}, {"Fr", "10.10."}};
+static const Date DATES[] = {
+    {"Fri", "02.10."},
+    {"Wed", "07.10."},
+    {"Fri", "30.10."},
+    {"Sun", "15.11."},
+};
 static const size_t DATE_COUNT = sizeof(DATES) / sizeof(DATES[0]);
 
 // Carousel: one card centred, neighbours peek in at both edges
