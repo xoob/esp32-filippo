@@ -18,7 +18,8 @@ Edit the dates in `DATES` in `src/main.cpp`.
 
 ## Hardware
 
-ESP32-C3 SuperMini with 0.42" OLED (SSD1306, 72x40, I2C).
+[ESP32-C3 SuperMini with 0.42" OLED](https://de.aliexpress.com/item/1005007342383107.html)
+(SSD1306, 72x40, I2C).
 
 | Function | GPIO |
 | -------- | ---- |
