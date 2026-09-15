@@ -4,10 +4,6 @@ Reply to Filippo's hand-written Arduino-sketch invite, running on the board.
 
 ![Demo](docs/demo.gif)
 
-([MP4 version](docs/demo.mp4). Rendered with `tools/demo/render.sh` from a
-phone clip: frames are cropped onto the board via template tracking, then
-quantized to a Game Boy palette.)
-
 ## Concept
 
 Filippo's postcard ends with `date = Serial.read();`. The board answers:
