@@ -8,7 +8,7 @@ set -euo pipefail
 INPUT=$1
 ROOT=$(cd "$(dirname "$0")/../.." && pwd)
 export WORK=$(mktemp -d)
-CURVE="0/0 0.1/0.1 0.3/0.18 0.6/0.35 0.85/0.6 1/1"
+CURVE="0/0 0.05/0.12 0.15/0.26 0.3/0.34 0.6/0.44 0.85/0.65 1/1"
 
 mkdir -p "$WORK/frames" "$WORK/out" "$ROOT/docs"
 ffmpeg -v error -y -i "$INPUT" -vf fps=30 "$WORK/frames/%04d.png"
